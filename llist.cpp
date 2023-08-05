@@ -235,7 +235,7 @@ void llist::printAllRecords()
 
     while (currRec != NULL)
     {
-        std::cout << "Acount Number: " << currRec->accountno << std::endl;
+        std::cout << "Account Number: " << currRec->accountno << std::endl;
         std::cout << "Name: " << currRec->name << std::endl;
         std::cout << "Address: \n" << currRec->address;
         currRec = currRec->next;
@@ -633,7 +633,7 @@ std::ostream& operator<<(std::ostream& os, const llist& toPrint)
 
     while (currRec != NULL)
     {
-        os << "Acount Number: " << currRec->accountno << std::endl;
+        os << "Account Number: " << currRec->accountno << std::endl;
         os << "Name: " << currRec->name << std::endl;
         os << "Address: \n" << currRec->address;
         currRec = currRec->next;
